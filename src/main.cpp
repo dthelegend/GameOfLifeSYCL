@@ -82,6 +82,8 @@ int main(int argc, char const *argv[])
                     }
                 });
             });
+
+            free(buffer_copy);
         }
     }
 
